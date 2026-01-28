@@ -8,8 +8,6 @@ try:
     from rich.table import Table
     from rich.panel import Panel
     from rich.text import Text
-    from rich.layout import Layout
-    from rich.live import Live
     from rich.prompt import Prompt
     from rich.markdown import Markdown
     from rich import box
@@ -21,7 +19,6 @@ except ImportError:
     from rich.table import Table
     from rich.panel import Panel
     from rich.text import Text
-    from rich.layout import Layout
     from rich.prompt import Prompt
     from rich.markdown import Markdown
     from rich import box
